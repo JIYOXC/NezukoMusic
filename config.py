@@ -66,7 +66,7 @@ SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/AIU_Support")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -155,7 +155,7 @@ autoclean = []
 
 # Images
 START_IMG_URL = "https://graph.org/file/eddd8667b6c381711e79f.jpg"
-PING_IMG_URL = "https://telegra.ph//file/e14488acaa70ae35d2506.jpg"
+PING_IMG_URL = "https://graph.org/file/eddd8667b6c381711e79f.jpg"
 PLAYLIST_IMG_URL = "https://telegra.ph//file/dfca5abcdca4dea7ec09c.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
 STATS_IMG_URL = "https://telegra.ph//file/6be6db8050a16fe945184.jpg"
