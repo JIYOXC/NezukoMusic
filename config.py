@@ -61,7 +61,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/AIU_CHANNEL")
+    "SUPPORT_CHANNEL", "https://t.me/AIUCHANNEL")
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/AIU_Support")
 
@@ -154,7 +154,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
+START_IMG_URL = "https://graph.org/file/eddd8667b6c381711e79f.jpg"
 PING_IMG_URL = "https://telegra.ph//file/e14488acaa70ae35d2506.jpg"
 PLAYLIST_IMG_URL = "https://telegra.ph//file/dfca5abcdca4dea7ec09c.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
