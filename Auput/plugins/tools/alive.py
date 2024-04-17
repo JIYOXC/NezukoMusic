@@ -10,7 +10,7 @@ from config import MUSIC_BOT_NAME, OWNER_USERNAME, SUPPORT_CHANNEL
 async def kontolmasukmemek(client: Client, message: Message):
     await message.reply_video(
         video=f"https://graph.org/file/c9d4de35e7801f97d02c7.mp4",
-        caption=f"🥀 Hei {message.from_user.mention}\n\n I am {MUSIC_BOT_NAME}\n\n🔥 I am Fast and Powerful music player bot with some awesome features.\n\n━━━━━━━━━━━━━━━━━━❄",
+        caption=f"🥀 Hei {message.from_user.mention}\n\n I am {MUSIC_BOT_NAME}\n\n🔥 I am Fast and Powerful music player bot with some awesome features.\n\n",
         reply_markup=InlineKeyboardMarkup(
             [
                [
