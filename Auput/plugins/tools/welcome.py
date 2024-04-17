@@ -47,7 +47,7 @@ class temp:
 
 
 
-def circle(pfp, size=(500, 500)):
+def circle(pfp, size=(259, 259)):
     pfp = pfp.resize(size, Image.ANTIALIAS).convert("RGBA")
     bigsize = (pfp.size[0] * 3, pfp.size[1] * 3)
     mask = Image.new("L", bigsize, 0)
@@ -62,7 +62,7 @@ def welcomepic(pic, user, chat, id, uname):
     background = Image.open("assets/bg2.jpg")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
-    pfp = pfp.resize((450, 450))
+    pfp = pfp.resize((259, 259))
     draw = ImageDraw.Draw(background)
     font = ImageFont.truetype('assets/font.ttf', size=40)
     welcome_font = ImageFont.truetype('assets/font.ttf', size=60)
