@@ -76,7 +76,7 @@ node(){
 repo(){
 	# Get git repo if the installer is runned standalone
 	[[ ! "NezukoMusic" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
-	git clone https://github.com/iamuput/NezukoMusic &&  cd NezukoMusic
+	git clone https://github.com/JIYOXC/AIUXMUSIC &&  cd AIUXMUSIC
 }
 
 
